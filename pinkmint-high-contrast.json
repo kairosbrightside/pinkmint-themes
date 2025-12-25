@@ -1,0 +1,97 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Pinkmint Cyberpunk High Contrast",
+  "type": "dark",
+
+  "colors": {
+    "editor.background": "#0E0F14",
+    "editor.foreground": "#FFFFFF",
+
+    "editorLineNumber.foreground": "#8A90A8",
+    "editorLineNumber.activeForeground": "#FE97AC",
+
+    "editor.selectionBackground": "#3A3F5C",
+    "editor.lineHighlightBackground": "#1C2033",
+
+    "editorBracketMatch.background": "#3A3F5C",
+    "editorBracketMatch.border": "#7DF9FF",
+
+    "activityBar.foreground": "#ACE99C",
+    "activityBar.inactiveForeground": "#7FAF8F",
+    "activityBarBadge.background": "#ACE99C",
+    "activityBarBadge.foreground": "#15171C",
+
+    "sideBar.foreground": "#ACE99C",
+    "sideBarTitle.foreground": "#ACE99C",
+
+    "list.activeSelectionForeground": "#ACE99C",
+    "list.hoverForeground": "#ACE99C",
+    "list.highlightForeground": "#ACE99C",
+
+    "icon.foreground": "#ACE99C",
+
+
+    "statusBar.background": "#FE97AC",
+    "statusBar.foreground": "#15171C",
+    "statusBar.border": "#FE97AC",
+
+    "statusBar.debuggingBackground": "#FF85A1",
+    "statusBar.debuggingForeground": "#15171C",
+    "statusBar.noFolderBackground": "#FE97AC",
+
+    "terminal.background": "#0E0F14",
+    "terminal.foreground": "#FFFFFF",
+
+    "terminal.ansiRed": "#FFB7A5",
+    "terminal.ansiGreen": "#ACE99C",
+    "terminal.ansiBlue": "#B48CFF",
+    "terminal.ansiCyan": "#7DF9FF",
+    "terminal.ansiMagenta": "#FE97AC",
+    "terminal.ansiYellow": "#ACE99C",
+    "focusBorder": "#ACE99C",
+    "editorCursor.foreground": "#ACE99C",
+    "editorIndentGuide.activeBackground1": "#ACE99C"
+  },
+
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#8A90A8",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#FF6FAE",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "entity.name.class"],
+      "settings": {
+        "foreground": "#C6B7FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#BFF2B8"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#7DF9FF"
+      }
+    },
+    {
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#FFD1C2"
+      }
+    }
+  ]
+}
