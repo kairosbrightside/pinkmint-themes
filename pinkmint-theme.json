@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Pinkmint Cyberpunk Dark",
+  "name": "Pinkmint Dark",
   "type": "dark",
 
   "colors": {
@@ -58,7 +58,16 @@
 
     "focusBorder": "#ACE99C",
     "editorCursor.foreground": "#ACE99C",
-    "editorIndentGuide.activeBackground1": "#ACE99C"
+    "editorIndentGuide.activeBackground1": "#ACE99C",
+
+    "editorBracketHighlight.foreground1": "#FE97AC", 
+    "editorBracketHighlight.foreground2": "#ACE99C", 
+    "editorBracketHighlight.foreground3": "#7DF9FF", 
+    "editorBracketHighlight.foreground4": "#B48CFF", 
+    "editorBracketHighlight.foreground5": "#FFB7A5", 
+    "editorBracketHighlight.foreground6": "#9B8CFF",
+
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FF6B6B"
   },
 
   "tokenColors": [
